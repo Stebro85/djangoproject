@@ -22,6 +22,7 @@ header h1 {
 .container {
     width: 600px;
     margin: 40px auto; /* dit centreert */
+    background-color: #f6c1c8;
 }
 
 /* Blog post */
