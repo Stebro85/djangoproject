@@ -1,15 +1,59 @@
-body{
-    background-color:
-     orange;color:
-     black;
+/* Algemene pagina */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9b1c1c; /* donker rood */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    color: white;
+/* Header */
+header {
+    background-color: orange;
+    padding: 25px;
 }
 
-article{
-    width: 500px;
-    margin-bottom: 40px;
-    border: 3px solid red;
+header h1 {
+    margin: 0;
+    color: black;
+    font-size: 32px;
+}
+
+/* Content container */
+.container {
+    width: 600px;
+    margin: 40px auto;
+}
+
+/* Blog post */
+.post {
+    background-color: #f8c7cf; /* licht roze */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+/* Datum */
+.date {
+    font-size: 12px;
+    color: #333;
+}
+
+/* Titel */
+.post h2 {
+    margin-top: 5px;
+}
+
+.post h2 a {
+    color: #ff9900; /* oranje titel */
+    text-decoration: none;
+}
+
+.post h2 a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: orange;
+    height: 40px;
 }
