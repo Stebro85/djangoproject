@@ -25,9 +25,9 @@ def post_nieuw(request):
             post.published_date = timezone.now()
             post.save() 
             return redirect('post_inhoud', pk=post.pk)
-        else: 
-            form=PostForm()
-        return render(request, 'blog/post_edit.html', {'form': 
+    else: 
+        form=PostForm()
+    return render(request, 'blog/post_edit.html', {'form': 
 form})
 
 # Create your views here.
